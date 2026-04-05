@@ -66,7 +66,7 @@ class ValignCommand(sublime_plugin.TextCommand):
 					break
 				
 				# Add row to the return value
-				if direction is -1:
+				if direction == -1:
 					rows.insert(0, row)
 				else:
 					rows.append(row)
